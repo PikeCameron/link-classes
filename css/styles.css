@@ -1,0 +1,57 @@
+
+
+body {
+    font-family: 'Merriweather', serif;
+    color: #333;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background-color: #e1ddd4;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  h1 {
+    color: darkorchid;
+    font-size: 2rem;
+  }
+  
+  h2 {
+    color: darkcyan;
+  }
+  
+  article {
+    width: 54rem;
+    padding: 1em 3em;
+    margin-bottom: 4rem;
+  }
+  
+  p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  a:link {
+    color: teal;
+  }
+
+  a:visited {
+    color: red;
+  }
+
+  a:hover {
+    color: green;
+    font-style: italic;
+  }
+  
+
+  a:active {
+    color: hotpink;
+    font-weight: bold;
+  }

@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Link pseudo-classes: link, visited, hover, and active">
+    <link href="/css/styles.css" rel="stylesheet">
+    <title>CSS Topic - Link Pseudo-Classes</title>
+</head>
+<body>
+    <body>
+        <main>
+         <article>
+            <h1>CSS Topic - Link Pseudo-classes</h1>
+            <p>Using CSS, you can change the appearance of your links whether you hover your mouse over them, 
+                if they were visited or not, or even what happens when you first click on the link. The magic 
+                of links is right at your finger tips!
+            </p>
+            <h2>:link</h2>
+            <p>The best place to start is by deciding how you want your link to look before anything happens. 
+                To alter your link right off the bat, you will use <em>a:link</em>. You start with <em>a</em>
+                because every link you use will be within an <em>a</em> tag.
+            </p>
+    
+            <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNXQzPN" data-user="pikecameron" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/pikecameron/pen/WNXQzPN">
+                CSS Link Pseudo-Classes</a> by PikeCameron (<a href="https://codepen.io/pikecameron">@pikecameron</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+            
+              <p><em>*Remember</em> to use href="" in your a tag to include your link. Here the link leads somewhere they can buy more 
+            dog food like <a href="https://www.petco.com" target="_blank">petco!</a></p>
+    
+            <h2>:visited</h2>
+            <p>Contrary to <em>:link</em>, <em>:visited</em> is how the your link looks after it has already been clicked on.</p>
+    
+            <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="vYWNRwV" data-user="pikecameron" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/pikecameron/pen/vYWNRwV">
+                Untitled</a> by PikeCameron (<a href="https://codepen.io/pikecameron">@pikecameron</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+
+              <p>Here <a href="https://www.tesla.com" target="_blank">Tesla</a> changes red after it has been visited by the user.</p>
+    
+            <h2>:hover</h2>
+            <p>Okay. Time to put on your big boy trousers because now it gets good. <em>a:hover</em> is something you can do in CSS
+            to change how the link interacts with your mouse when you hover over the link.</p>
+            <p>Hover sometimes proves problematic on touch devices. Hover works by a mouse or pointer floating over the element but touch
+                devices don't have a pointer. Often times to get around this, touch software will have the user tap the link which will then 
+                show the hover element, and then tap it again to follow the link.
+            </p>
+    
+                <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjOYLQp" data-user="pikecameron" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/pikecameron/pen/JjOYLQp">
+                    CSS Link :hover</a> by PikeCameron (<a href="https://codepen.io/pikecameron">@pikecameron</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                  </p>
+
+                  <p>Here we see the hover effect over "walk on water" because we all know <a href="https://www.churchofjesuschrist.org/study/liahona/2001/11/jesus-walks-on-the-water?lang=eng" target="_blank">only Jesus could walk on water.</a></p>
+
+                <h2>:active</h2>
+                <p><em>:active</em> is similar to <em>:hover</em> in the way the link reacts. The results are very short but happens in the moment you click on 
+                the link. Here the link is bolded and turns pink when you click on it and quickly reverts back. If you were to have a <em>:visited</em> tag, 
+            it would take on those effects after it has been clicked.</p>
+
+                <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="yLPYjyV" data-user="pikecameron" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/pikecameron/pen/yLPYjyV">
+                    CSS Link :active</a> by PikeCameron (<a href="https://codepen.io/pikecameron">@pikecameron</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                  </p>
+                  <p>It's clear that Donovan Mitchell's <a href="https://www.adidas.com/us/donovan-mitchell-d.o.n.-issue-3-shoes/H67724.html" target="_blank">D.O.N. Issue #3</a> are the best shoes.</p>
+            </article> 
+        </main>
+        
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        </body>
+</body>
+</html>
